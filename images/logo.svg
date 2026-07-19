@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="70" viewBox="0 0 320 70">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#36A3FF"/>
+      <stop offset="100%" stop-color="#0A63FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circle -->
+  <circle cx="35" cy="35" r="22" fill="none" stroke="url(#g)" stroke-width="4"/>
+
+  <!-- Wings -->
+  <path d="M8 30 L23 30 L18 24 L3 24 Z" fill="url(#g)"/>
+  <path d="M8 36 L23 36 L18 41 L3 41 Z" fill="url(#g)"/>
+
+  <path d="M62 30 L47 30 L52 24 L67 24 Z" fill="url(#g)"/>
+  <path d="M62 36 L47 36 L52 41 L67 41 Z" fill="url(#g)"/>
+
+  <!-- Airplane -->
+  <path d="M35 18
+           L39 32
+           L46 36
+           L39 38
+           L37 52
+           L35 48
+           L33 52
+           L31 38
+           L24 36
+           L31 32
+           Z"
+        fill="white"/>
+
+  <!-- Text -->
+  <text x="82" y="31"
+        font-family="Poppins, Arial"
+        font-size="22"
+        font-weight="700"
+        fill="white">
+        PILOT
+  </text>
+
+  <text x="155" y="31"
+        font-family="Poppins, Arial"
+        font-size="22"
+        font-weight="700"
+        fill="#1E90FF">
+        AKADEMIYASI
+  </text>
+
+  <text x="82" y="52"
+        font-family="Poppins, Arial"
+        font-size="9"
+        letter-spacing="2"
+        fill="#A9B6C8">
+        UCHA • O'RGAN • YUKSAL
+  </text>
+</svg>
